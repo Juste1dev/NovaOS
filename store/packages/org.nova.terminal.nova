@@ -1,0 +1,9 @@
+NOVA-PKG-1
+id=org.nova.terminal
+name=Terminal
+version=1.0.0
+launch_type=url
+launch_target=file:///home/user/Documents/Commandes Terminal.txt
+description=Ouvre le terminal Nova enrichi.
+desktop_shortcut=false
+menu_shortcut=true

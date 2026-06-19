@@ -1,0 +1,104 @@
+{
+  "name": "Nova Demo Store",
+  "apps": [
+    {
+      "id": "org.mozilla.firefox",
+      "name": "Firefox",
+      "category": "Web",
+      "summary": "Lanceur web live préinstallé pour le navigateur Nova.",
+      "description": "Ouvre le site Firefox dans le navigateur Nova avec rendu live via le helper QEMU COM2.",
+      "launch_target": "https://www.mozilla.org/firefox/new/",
+      "package": "packages/org.mozilla.firefox.nova"
+    },
+    {
+      "id": "org.nova.portal.activation",
+      "name": "Nova Activation Portal",
+      "category": "Utilities",
+      "summary": "Mini portail Web pour générer les clés Home et Pro.",
+      "description": "Site statique HTML/CSS/JS livré dans le bundle pour gérer les clés de démonstration Nova 6.",
+      "launch_target": "file:///activation_portal/index.html",
+      "package": "packages/org.nova.portal.activation.nova"
+    },
+    {
+      "id": "org.nova.docs.bundle",
+      "name": "Bundle Docs",
+      "category": "Documentation",
+      "summary": "Documentation intégrée du bundle et scripts de validation.",
+      "description": "Expose la documentation de livraison, les scripts QEMU et les notes d’activation du bundle Nova 6.",
+      "launch_target": "file:///home/user/BUNDLE.txt",
+      "package": "packages/org.nova.docs.bundle.nova"
+    },
+    {
+      "id": "org.nova.files",
+      "name": "Fichiers",
+      "category": "Productivité",
+      "summary": "Explorateur de fichiers Nova.",
+      "description": "Ouvre le gestionnaire de fichiers local.",
+      "launch_target": "nova://files",
+      "package": "packages/org.nova.files.nova"
+    },
+    {
+      "id": "org.nova.terminal",
+      "name": "Terminal",
+      "category": "Développement",
+      "summary": "Terminal local avec historique et défilement.",
+      "description": "Ouvre le terminal Nova enrichi.",
+      "launch_target": "file:///home/user/Documents/Commandes Terminal.txt",
+      "package": "packages/org.nova.terminal.nova"
+    },
+    {
+      "id": "org.nova.settings",
+      "name": "Paramètres",
+      "category": "Système",
+      "summary": "Centre de configuration Nova.",
+      "description": "Accès aux thèmes, activation et infos système.",
+      "launch_target": "file:///home/user/readme.txt",
+      "package": "packages/org.nova.settings.nova"
+    },
+    {
+      "id": "org.nova.monitor",
+      "name": "Centre Système",
+      "category": "Système",
+      "summary": "Supervision mémoire, réseau et journal.",
+      "description": "Vue temps réel des métriques Nova.",
+      "launch_target": "file:///home/user/Documents/System Monitor.txt",
+      "package": "packages/org.nova.monitor.nova"
+    },
+    {
+      "id": "org.nova.hub",
+      "name": "Nova Hub",
+      "category": "Productivité",
+      "summary": "Cockpit démo et raccourcis.",
+      "description": "Carte produit pour la démo Nova Bundle.",
+      "launch_target": "nova://release-notes",
+      "package": "packages/org.nova.hub.nova"
+    },
+    {
+      "id": "org.nova.notes",
+      "name": "Quick Notes",
+      "category": "Productivité",
+      "summary": "Bloc-notes rapide de session.",
+      "description": "Capture tâches, idées et feedback.",
+      "launch_target": "file:///home/user/notes.txt",
+      "package": "packages/org.nova.notes.nova"
+    },
+    {
+      "id": "org.nova.symera",
+      "name": "SYMERA",
+      "category": "IA",
+      "summary": "Assistant local intégré.",
+      "description": "Assistant local Nova pour ouvrir apps et docs.",
+      "launch_target": "file:///home/user/SYMERA.txt",
+      "package": "packages/org.nova.symera.nova"
+    },
+    {
+      "id": "org.nova.qa",
+      "name": "QA Checklist",
+      "category": "Documentation",
+      "summary": "Checklist de validation QEMU.",
+      "description": "Checklist QA intégrée au bundle.",
+      "launch_target": "file:///home/user/Documents/QA-Checklist.txt",
+      "package": "packages/org.nova.qa.nova"
+    }
+  ]
+}

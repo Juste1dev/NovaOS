@@ -1,0 +1,9 @@
+NOVA-PKG-1
+id=org.nova.hub
+name=Nova Hub
+version=1.0.0
+launch_type=url
+launch_target=nova://release-notes
+description=Carte produit pour la démo Nova Bundle.
+desktop_shortcut=false
+menu_shortcut=true

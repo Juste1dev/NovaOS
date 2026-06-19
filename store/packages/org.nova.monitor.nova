@@ -1,0 +1,9 @@
+NOVA-PKG-1
+id=org.nova.monitor
+name=Centre Système
+version=1.0.0
+launch_type=url
+launch_target=file:///home/user/Documents/System Monitor.txt
+description=Vue temps réel des métriques Nova.
+desktop_shortcut=false
+menu_shortcut=true

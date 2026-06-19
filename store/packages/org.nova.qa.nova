@@ -1,0 +1,9 @@
+NOVA-PKG-1
+id=org.nova.qa
+name=QA Checklist
+version=1.0.0
+launch_type=url
+launch_target=file:///home/user/Documents/QA-Checklist.txt
+description=Checklist QA intégrée au bundle.
+desktop_shortcut=false
+menu_shortcut=true

@@ -1,0 +1,9 @@
+NOVA-PKG-1
+id=org.mozilla.firefox
+name=Firefox
+version=1.1.0
+launch_type=url
+launch_target=https://www.mozilla.org/firefox/new/
+description=Firefox live via le navigateur Nova et le pont COM2 QEMU.
+desktop_shortcut=true
+menu_shortcut=true

@@ -1,0 +1,9 @@
+NOVA-PKG-1
+id=org.nova.docs.bundle
+name=Bundle Docs
+version=1.0.0
+launch_type=url
+launch_target=file:///home/user/BUNDLE.txt
+description=Documentation du bundle, validation QEMU et notes d’activation.
+desktop_shortcut=false
+menu_shortcut=true

@@ -1,0 +1,9 @@
+NOVA-PKG-1
+id=org.nova.notes
+name=Quick Notes
+version=1.0.0
+launch_type=url
+launch_target=file:///home/user/notes.txt
+description=Capture tâches, idées et feedback.
+desktop_shortcut=false
+menu_shortcut=true

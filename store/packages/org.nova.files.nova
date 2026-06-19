@@ -1,0 +1,9 @@
+NOVA-PKG-1
+id=org.nova.files
+name=Fichiers
+version=1.0.0
+launch_type=url
+launch_target=nova://files
+description=Ouvre le gestionnaire de fichiers local.
+desktop_shortcut=false
+menu_shortcut=true

@@ -1,0 +1,9 @@
+NOVA-PKG-1
+id=org.nova.settings
+name=Paramètres
+version=1.0.0
+launch_type=url
+launch_target=file:///home/user/readme.txt
+description=Accès aux thèmes, activation et infos système.
+desktop_shortcut=false
+menu_shortcut=true

@@ -1,0 +1,9 @@
+NOVA-PKG-1
+id=org.nova.portal.activation
+name=Nova Activation Portal
+version=1.0.0
+launch_type=url
+launch_target=file:///activation_portal/index.html
+description=Mini portail local pour générer les clés de démonstration Home et Pro.
+desktop_shortcut=false
+menu_shortcut=true

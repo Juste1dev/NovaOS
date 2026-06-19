@@ -1,0 +1,9 @@
+NOVA-PKG-1
+id=org.nova.symera
+name=SYMERA
+version=1.0.0
+launch_type=url
+launch_target=file:///home/user/SYMERA.txt
+description=Assistant local Nova pour ouvrir apps et docs.
+desktop_shortcut=false
+menu_shortcut=true
