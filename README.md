@@ -242,6 +242,7 @@ NovaOS is currently in active development:
 # Vision
 
 NovaOS aims to become a full experimental operating system combining low-level understanding with a modern user experience.
+If you want to help me improve the system and develop it alongside me, don't hesitate to send an email to: TonyxPro@outlook.com
 
 ---
 
