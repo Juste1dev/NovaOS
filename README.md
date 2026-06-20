@@ -16,6 +16,11 @@ qemu-system-x86_64
 -no-reboot 
 -device i8042
 
+**Using QEMU with this OS on systems other than Windows is highly discouraged and unstable.
+For the best experience, run the VM in QEMU on Windows (not WSL) and then enjoy your experience.**
+
+
+
 # NovaOS
 
 NovaOS is an experimental operating system built from scratch.
