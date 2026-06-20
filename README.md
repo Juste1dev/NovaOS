@@ -1,3 +1,21 @@
+⚠️**WARNING**⚠️ 
+Depending on the OS you use to launch the VM, the launch command for QEMU varies (otherwise, mouse capture won't work):
+
+**Windows minimal command**:
+qemu-system-x86_64 -cdrom NovaOS_6.0.iso
+
+**Linux & MacOS**:
+qemu-system-x86_64 
+-m 512M 
+-cpu qemu64 
+-smp 2 
+-machine pc 
+-display gtk 
+-serial stdio 
+-drive format=raw,file=NovaOS.iso 
+-no-reboot 
+-device i8042
+
 # NovaOS
 
 NovaOS is an experimental operating system built from scratch.
